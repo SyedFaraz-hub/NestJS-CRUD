@@ -1,0 +1,11 @@
+creating the product
+nest new <project-Name>
+
+creating module 
+nest g module <module-Name>
+
+creating controller 
+nest g controller <module-Name>
+
+creating service 
+nest g service <module-Name>
