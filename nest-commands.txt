@@ -9,3 +9,23 @@ nest g controller <module-Name>
 
 creating service 
 nest g service <module-Name>
+
+
+initalize prisma 
+prisma init 
+
+migrate the model initalize
+npx prisma migrate dev --name init
+
+if changes in model regenerate
+prisma generate 
+npx prisma migrate dev --name <update-name>
+
+
+create new module and service folder in nest 
+nest g module database
+nest g service database
+
+
+Make REST API QUCKLY
+nest g resourses employees
